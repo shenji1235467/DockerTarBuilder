@@ -7,13 +7,13 @@ on:
         required: true
         default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
       docker_name:
-        description: '请填写docker镜像密码'
+        description: '请填写docker.io用户名'
         required: true
-        default: 'name'  # 设置默认的 Docker 镜像密码        
+        default: 'User_name'  # 设置默认的 Docker 镜像密码        
       docker_pwd:
-        description: '请填写docker镜像密码'
+        description: '请填写docker.io密码'
         required: true
-        default: '123456'  # 设置默认的 Docker 镜像密码
+        default: 'pwd-123456'  # 设置默认的 Docker 镜像密码
         
 
 jobs:
